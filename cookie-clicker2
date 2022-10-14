@@ -1,0 +1,1 @@
+javascript:(function()%7Blet%20cookiess%3DNumber(parseFloat(prompt('How%20much%20cookies%20do%20you%20want%3F')))%0Avar%20text%20%3D%20%22Cookies%20set%20to%20%22%0AGame.cookies%3Dcookiess%0Aalert(text.concat(cookiess%2C%20%22.%22))%7D)()%3B

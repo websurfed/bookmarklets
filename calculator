@@ -1,0 +1,1 @@
+javascript:(function(){var evl,expr=prompt('Multiplying is * || Adding is + || Subtracting is - || Dividing is /','');with(Math)try{evl=parseFloat(eval(expr));if(isNaN(evl)){throw Error('Not a number!');}prompt('Result of '+expr+':',evl)}catch(evl){alert(evl);}})();

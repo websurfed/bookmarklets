@@ -1,1 +1,1 @@
-javascript:(function(){var walker=document.createTreeWalker(document.documentElement, NodeFilter.SHOW_TEXT, null, false); while (walker.nextNode()){walker.currentNode.nodeValue = "we're watching";}; alert("Page Haxxed!");}());
+javascript:(function(){var walker=document.createTreeWalker(document.documentElement, NodeFilter.SHOW_TEXT, null, false); while (walker.nextNode()){walker.currentNode.nodeValue = "we're watching";}; alert("You're being watched.");}());

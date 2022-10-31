@@ -1,0 +1,1 @@
+javascript:(function()%7Bvar%20bodyelement%20%3D%20document.querySelector(%22body%22)%0Avar%20titlelement%20%3D%20document.querySelector(%22head%20%3E%20title%22)%0Avar%20answer%20%3D%20prompt(%22enter%20title%3A%22)%0Atitlelement.innerHTML%3Danswer%0Aalert(%22this%20is%20pointless%22)%0Abodyelement.remove()%7D)()%3B
